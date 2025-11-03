@@ -44,10 +44,14 @@ I went back to the index.php page, turned the proxy and intercept on and tried t
 
 In burpsuite, I intercepted the traffic and I'm going to modify the link. 
 
-<img width="677" height="298" alt="image" src="https://github.com/user-attachments/assets/0360499a-f335-41ce-afbf-9eab2911fd5e" />
+
 This is what I originally had, and I modified the bottom url to redirect to /internal/admin.php
 
 <img width="811" height="488" alt="image" src="https://github.com/user-attachments/assets/dd41c539-2c5f-4806-8ee3-7aec7930c8ff" />
+
+
+<img width="677" height="298" alt="image" src="https://github.com/user-attachments/assets/0360499a-f335-41ce-afbf-9eab2911fd5e" />
+
 I can forward this now, and tada. I got the flag. 
 
 <img width="971" height="244" alt="flag" src="https://github.com/user-attachments/assets/a012cba0-63ea-4d65-9acb-22ec36049374" />
